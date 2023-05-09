@@ -27,7 +27,7 @@ Félicitation vous avez fait votre premier hello world! en rust. ^^
 # Exercice 1 : Récupérer les arguments!
 
 L'exercice "Récupérer les arguments" est un incontournable pour tout débutant en programmation. Il sert d'introduction simple à un nouveau langage de programmation.
-L'objectif de cet exercice est de récupérer les arguments dans le main pour ensuite l'afficher.
+L'objectif de cet exercice est de récupérer les arguments dans le main pour ensuite les afficher.
 Pour vous aider, voici le lien de la doc officiel de Rust:
 https://doc.rust-lang.org/book/
 
@@ -38,6 +38,12 @@ exemple :
 
 # Exercice 2 : Addition
 
-L'objectif de cet exercice est de créer une fonction qui prend en paramètre 2 float et de retourner le résultat obtenu après les avoir additionner.
+Pour cette exercice commencez par créer un fichier ex02.rs dans src/
+L'objectif de cet exercice est de créer une fonction qui prend en paramètre 2 float et qui retourne le résultat obtenu après les avoir additionner.
+une fois fait appeler la fonction dans le main en lui donnant deux floats donnés en paramètre puis afficher le résultat.
+
+exemple :
+    ./workshop_rust 0.2 0.2
+    0.4
 
 # Exercice 3
