@@ -39,12 +39,12 @@ exemple :
 # Exercice 2 : Addition
 
 Pour cette exercice commencez par créer un fichier ex02.rs dans le dossier src.
-L'objectif de cet exercice est de créer une fonction qui prend en paramètre 2 float et qui retourne le résultat obtenu après les avoir additionner.
+L'objectif de cet exercice est de créer une fonction qui prend en paramètre 2 int et qui retourne le résultat obtenu après les avoir additionner.
 Ensuite, appeler la fonction dans le main en lui donnant deux floats donnés en paramètre puis afficher le résultat.
 
 exemple :
 
-    ./workshop_rust 0.2 0.2
-    0.4
+    ./workshop_rust -21 -21
+    -42
 
 # Exercice 3
