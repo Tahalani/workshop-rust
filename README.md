@@ -43,6 +43,7 @@ L'objectif de cet exercice est de créer une fonction qui prend en paramètre 2 
 Ensuite, appeler la fonction dans le main en lui donnant deux floats donnés en paramètre puis afficher le résultat.
 
 exemple :
+
     ./workshop_rust 0.2 0.2
     0.4
 
