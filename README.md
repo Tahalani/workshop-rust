@@ -16,25 +16,25 @@ Installation de Cargo
 
 Avant de commencer à apprendre Rust, vous devez installer Cargo, l'outil de gestion de packages et de construction officiel de Rust. Voici comment procéder :
 
-curl https://sh.rustup.rs -sSf | sh
+    1: curl https://sh.rustup.rs -sSf | sh
+    2: cargo init workshop-rust
+    3: cd workshop-rust
+    4: cargo build --release && cp target/release/workshop_rust .
+    5: ./workshop-rust
 
-cargo init workshop-rust
+Félicitation vous avez fait votre premier hello world! en rust. ^^
 
-cd workshop-rust
+# Exercice 1 : Récupérer les arguments!
 
-cargo build --release && cp target/release/workshop_rust .
-
-./workshop-rust
-
-Une fois l'installation terminée, vous devriez pouvoir exécuter la commande cargo depuis votre terminal ou invite de commande.
-
-# Exercice 1 : Hello World!
-
-L'exercice "Hello World!" est un incontournable pour tout débutant en programmation. Il sert d'introduction simple à un nouveau langage de programmation.
-Tout d'abord créer un fichier ex01.
-L'objectif de cet exercice est de créer un main qui permet d'ecrire "Hello World!" en Rust.
+L'exercice "Récupérer les arguments" est un incontournable pour tout débutant en programmation. Il sert d'introduction simple à un nouveau langage de programmation.
+L'objectif de cet exercice est de récupérer les arguments dans le main pour ensuite l'afficher.
 Pour vous aider, voici le lien de la doc officiel de Rust:
 https://doc.rust-lang.org/book/
+
+exemple :
+
+    ./workshop_rust "vive le rust!"
+    vive le rust!
 
 # Exercice 2 : Addition
 
