@@ -26,6 +26,8 @@ Félicitation vous avez fait votre premier hello world! en rust. ^^
 
 # Exercice 1 : Récupération des arguments!
 
+Compétence: récupérer les arguments.
+
 L'exercice " Récupération des arguments" est un incontournable pour tout débutant en programmation. Il sert d'introduction simple à un nouveau langage de programmation.
 L'objectif de cet exercice est de récupérer les arguments dans le main pour ensuite les afficher.
 Pour vous aider, voici le lien de la doc officiel de Rust:
@@ -38,6 +40,8 @@ exemple :
 
 # Exercice 2 : Addition
 
+Compétence: création de fonction simple
+
 Pour cette exercice commencez par créer un fichier ex02.rs dans le dossier src.
 L'objectif de cet exercice est de créer une fonction qui prend en paramètre 2 int et qui retourne le résultat obtenu après les avoir additionner.
 Ensuite, appeler la fonction dans le main en lui donnant deux floats donnés en paramètre puis afficher le résultat.
@@ -49,11 +53,29 @@ exemple :
 
 # Exercice 3 : Recherche d'un élément dans un tableau
 
+Compétence: Tableau.
+
 Pour cette exercice commencez par créer un fichier ex03.rs dans le dossier src.
-Une fois crée vous pouvez commencer à créer une fonction qui prends un vecteur de Int list et un Int nbr paramètre, celle ci retournera l'index de nbr dans list.
+Une fois crée vous pouvez commencer à créer une fonction qui prends un vecteur de Int list et un Int nbr paramètre, celle-ci retournera l'index de nbr dans list.
 Ensuite, appeler la fonction dans le main en lui donnant un vecteur de Int qui contient {1, 2, 3} et un Int qui sera par exemple 3 puis afficher le résultat.
 
 exemple :
 
     ./workshop_rust
     index: 2
+
+# Exercice 4 : Manipulation de chaînes de caractères
+
+Compétence: Variable mutable / réference.
+
+Dans cette exercice nous allons voir comment changer une chaînes de caractères en rust sans la retourner.
+D'abord commencez par créer un fichier ex04.rs dans le dossier src.
+Une fois fait créer une fonction qui prends une String "Bad day!" en paramètre, celle-ci ne retourne rien.
+Dans cette fonction modifier la String "Bad day!" pour qu'elle soit maintenant égal à "Good day!".
+
+exemple :
+
+    ./workshop_rust
+    str: "Good day!"
+
+# Exercise 5 : Création d'une structure de données
