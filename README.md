@@ -50,11 +50,10 @@ exemple :
 # Exercice 3 : Recherche d'un élément dans un tableau
 
 Pour cette exercice commencez par créer un fichier ex03.rs dans le dossier src.
-une fois crée vous pouvez commencer à créer une fonction qui prends un vec<Int> list et un int nbr paramètre,
-celle ci retournera l'index de nbr dans list.
-Ensuite, appeler la fonction dans le main en lui donnant un vec<Int> qui contient {1, 2, 3} et un int qui sera par exemple 3 puis afficher le résultat.
+Une fois crée vous pouvez commencer à créer une fonction qui prends un vecteur de Int list et un Int nbr paramètre, celle ci retournera l'index de nbr dans list.
+Ensuite, appeler la fonction dans le main en lui donnant un vecteur de Int qui contient {1, 2, 3} et un Int qui sera par exemple 3 puis afficher le résultat.
 
 exemple :
+
     ./workshop_rust
     index: 2
-    
