@@ -7,7 +7,7 @@ Table des matières
     Exercice 1 : Récupération des arguments!
     Exercice 2 : Addition
     Exercice 3 : Recherche d'un élément dans un tableau
-    Exercice 4 : Manipulation de chaînes de caractères
+    Exercice 4 : Manipulation de référence/variable
     Exercice 5 : Création d'une structure de données
 
 # Exercice 0
@@ -64,18 +64,20 @@ exemple :
     ./workshop_rust
     index: 2
 
-# Exercice 4 : Manipulation de chaînes de caractères
+# Exercice 4 : Manipulation de référence/variable
 
 Compétence: Variable mutable / réference.
 
+Doc: https://doc.rust-lang.org/std/keyword.mut.html
+
 Dans cette exercice nous allons voir comment changer une chaînes de caractères en rust sans la retourner.
 D'abord commencez par créer un fichier ex04.rs dans le dossier src.
-Une fois fait créer une fonction qui prends une String "Bad day!" en paramètre, celle-ci ne retourne rien.
-Dans cette fonction modifier la String "Bad day!" pour qu'elle soit maintenant égal à "Good day!".
+Une fois fait créer une fonction qui prends une vecteur de Int {1, 2, 3} en paramètre, celle-ci ne retourne rien.
+Dans cette fonction modifier modifier le vecteur pour que chaque variable sois égale à elle même +1.
 
 exemple :
 
     ./workshop_rust
-    str: "Good day!"
+    vec: 2,3,4
 
 # Exercise 5 : Création d'une structure de données
