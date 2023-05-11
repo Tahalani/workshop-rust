@@ -4,8 +4,8 @@ Ce guide vise à vous fournir une introduction claire et précise à l'apprentis
 Table des matières
 
     Installation de Cargo
-    Exercice 1 : Hello, World!
-    Exercice 2 : Calculatrice basique
+    Exercice 1 : Récupération des arguments!
+    Exercice 2 : Addition
     Exercice 3 : Recherche d'un élément dans un tableau
     Exercice 4 : Manipulation de chaînes de caractères
     Exercice 5 : Création d'une structure de données
@@ -24,9 +24,9 @@ Avant de commencer à apprendre Rust, vous devez installer Cargo, l'outil de ges
 
 Félicitation vous avez fait votre premier hello world! en rust. ^^
 
-# Exercice 1 : Récupérer les arguments!
+# Exercice 1 : Récupération des arguments!
 
-L'exercice "Récupérer les arguments" est un incontournable pour tout débutant en programmation. Il sert d'introduction simple à un nouveau langage de programmation.
+L'exercice " Récupération des arguments" est un incontournable pour tout débutant en programmation. Il sert d'introduction simple à un nouveau langage de programmation.
 L'objectif de cet exercice est de récupérer les arguments dans le main pour ensuite les afficher.
 Pour vous aider, voici le lien de la doc officiel de Rust:
 https://doc.rust-lang.org/book/
@@ -45,6 +45,16 @@ Ensuite, appeler la fonction dans le main en lui donnant deux floats donnés en 
 exemple :
 
     ./workshop_rust -21 -21
-    -42
+    resultat: -42
 
-# Exercice 3
+# Exercice 3 : Recherche d'un élément dans un tableau
+
+Pour cette exercice commencez par créer un fichier ex03.rs dans le dossier src.
+une fois crée vous pouvez commencer à créer une fonction qui prends un vec<Int> list et un int nbr paramètre,
+celle ci retournera l'index de nbr dans list.
+Ensuite, appeler la fonction dans le main en lui donnant un vec<Int> qui contient {1, 2, 3} et un int qui sera par exemple 3 puis afficher le résultat.
+
+exemple :
+    ./workshop_rust
+    index: 2
+    
