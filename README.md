@@ -9,6 +9,7 @@ Table des matières
     Exercice 3 : Recherche d'un élément dans un tableau
     Exercice 4 : Manipulation de référence/variable
     Exercice 5 : Création d'une structure de données
+    Exercice 6 : Tableau de pointeur sur fonction
 
 # Exercice 0
 
