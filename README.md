@@ -62,7 +62,7 @@ Ensuite, appeler la fonction dans le main en lui donnant un vecteur de Int qui c
 
 exemple :
 
-    ./workshop_rust
+    ./workshop_rust 3
     index: 2
 
 # Exercice 4 : Manipulation de référence/variable
@@ -91,7 +91,7 @@ Vous pouvez maintenant créer une structure Person qui contient deux Int (Id, Ag
 
 exemple :
 
-    ./workshop_rust
+    ./workshop_rust 87484548454 42
     struct -> id: 87484548454 age: 42
     
 # Exercice 6 : Tableau de pointeur sur fonction
