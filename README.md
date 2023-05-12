@@ -10,6 +10,7 @@ Table des matières
     Exercice 4 : Manipulation de référence/variable
     Exercice 5 : Création d'une structure de données
     Exercice 6 : Tableau de pointeur sur fonction
+    Exercice 7 : Retour de fonction Result<Self::Value, M::Error> et Option (comme Maybe)
 
 # Exercice 0
 
@@ -93,10 +94,12 @@ exemple :
 
     ./workshop_rust 87484548454 42
     struct -> id: 87484548454 age: 42
-    
+
 # Exercice 6 : Tableau de pointeur sur fonction
 
 Compétence: Pointeur sur fonction.
+
+Doc: https://doc.rust-lang.org/std/collections/struct.HashMap.html
 
 Créer un fichier ex06.rs
 Dans celui-ci créer deux fonction, une qui s'appelle fct1 et qui affiche "Fonction 1" et l'autre s'appelle fct2 et qui affiche "Fonction 2".
@@ -107,6 +110,6 @@ exemple :
 
     ./workshop_rust fct1
     Fonction 1
-    
+
     ./workshop_rust fct2
     Fonction 2
