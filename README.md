@@ -74,7 +74,7 @@ Doc: https://doc.rust-lang.org/std/keyword.mut.html
 Dans cette exercice nous allons voir comment changer une chaînes de caractères en rust sans la retourner.
 D'abord commencez par créer un fichier ex04.rs dans le dossier src.
 Une fois fait créer une fonction qui prends une vecteur de Int {1, 2, 3} en paramètre, celle-ci ne retourne rien.
-Dans cette fonction modifier modifier le vecteur pour que chaque variable sois égale à elle même +1.
+Dans cette fonction modifier le vecteur pour que chaque variable sois égale à elle même +1.
 
 exemple :
 
@@ -82,3 +82,31 @@ exemple :
     vec: 2,3,4
 
 # Exercise 5 : Création d'une structure de données
+
+Compétence: Structure.
+
+Dans cette exercice ont va voir comment créer une structure la remplir et l'afficher
+Comme les exercices précedents créer un fichier ex05.rs dans le dossier src.
+Vous pouvez maintenant créer une structure Person qui contient deux Int (Id, Age), créer ensuite une fonction qui la remplie et l'affiche.
+
+exemple :
+
+    ./workshop_rust
+    struct -> id: 87484548454 age: 42
+    
+# Exercice 6 : Tableau de pointeur sur fonction
+
+Compétence: Pointeur sur fonction.
+
+Créer un fichier ex06.rs
+Dans celui-ci créer deux fonction, une qui s'appelle fct1 et qui affiche "Fonction 1" et l'autre s'appelle fct2 et qui affiche "Fonction 2".
+Maintenant créer une 3ème fonction qui prends une string (fct1 ou fct2) en paramètre.
+Dans celle-ci créer un tableau de pointeur sur fonction qui lancera la fct1 ou fct2 en fonction de la string en paramètre.
+
+exemple :
+
+    ./workshop_rust fct1
+    Fonction 1
+    
+    ./workshop_rust fct2
+    Fonction 2
