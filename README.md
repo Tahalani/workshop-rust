@@ -12,7 +12,7 @@ Table des matières
     Exercice 6 : Tableau de pointeur sur fonction
     Exercice 7 : Le type Option
     Exercice 8 : Traitement des erreurs
-    Exercice 9 : Manipulation des vecteurs
+    Exercice 9 : Séparation et longueur des mots dans une chaîne de caractères
     Exercice 10 : Programmation orientée objet
 
 # Exercice 0
@@ -143,15 +143,17 @@ exemple :
     ./workshop_rust 8 0
     Erreur : Division by zéro
 
-# Exercice 9 : Manipulation des vecteurs
+# Exercice 9 : Séparation et longueur des mots dans une chaîne de caractères
 
-Dans cet exercice, vous allez pratiquer la manipulation des vecteurs en Rust. Les vecteurs sont des structures de données dynamiques qui permettent de stocker et de gérer plusieurs éléments de même type.
-Vous devez écrire une fonction appelée find_max qui prend en paramètre un vecteur de nombres entiers et renvoie le plus grand nombre présent dans ce vecteur.
+Dans cet exercice, vous allez pratiquer la séparation d'une chaîne de caractères en mots à l'aide d'un séparateur (Vous l'avez deja fait en C :D), puis mesurer la longueur de chaque mot. Vous allez donc écrire une fonction qui prend une chaîne de caractères, sépare les mots et renvoie la longueur de chaque mot dans un vecteur.
 
 exemple :
 
-    ./workshop_rust 10 5 8 3 12 6
-    12
+    ./workshop_rust "J'aime le Rust !"
+    Mot 1: 6 caractères
+    Mot 2: 2 caractères
+    Mot 3: 4 caractères
+    Mot 4: 1 caractères
 
 # Exercice 10 : Programmation orientée objet
 
