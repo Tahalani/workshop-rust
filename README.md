@@ -11,8 +11,9 @@ Table des matières
     Exercice 5 : Création d'une structure de données
     Exercice 6 : Tableau de pointeur sur fonction
     Exercice 7 : Le type Option
-    Exercice 8 : Traitement des erreurs avec Result
+    Exercice 8 : Traitement des erreurs
     Exercice 9 : Manipulation des vecteurs
+    Exercice 10 : Programmation orientée objet
 
 # Exercice 0
 
