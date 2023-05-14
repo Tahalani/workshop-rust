@@ -10,7 +10,9 @@ Table des matières
     Exercice 4 : Manipulation de référence/variable
     Exercice 5 : Création d'une structure de données
     Exercice 6 : Tableau de pointeur sur fonction
-    Exercice 7 : Retour de fonction Result<Self::Value, M::Error> et Option (comme Maybe)
+    Exercice 7 : Le type Option
+    Exercice 8 : Traitement des erreurs avec Result
+    Exercice 9 : Manipulation des vecteurs
 
 # Exercice 0
 
@@ -113,3 +115,45 @@ exemple :
 
     ./workshop_rust fct2
     Fonction 2
+
+# Exercice 7 : Le type Option
+
+Dans cet exercice, vous allez pratiquer la manipulation de l'Option en Rust. L'Option est un type spécial en Rust qui permet de représenter la présence ou l'absence d'une valeur.
+Vous devez écrire une fonction "find_lenght" qui prend en paramètre une chaîne de caractères (String) et retourne la longueur de cette chaîne de caractères. Si la chaîne de caractères est vide, la fonction doit retourner None. Sinon, elle doit retourner Some(n), où n est la longueur de la chaîne de caractères.
+
+exemple :
+
+    ./workshop_rust "Hello World!"
+    Lenght = 12
+
+    ./workshop_rust ""
+    String is empty !
+
+# Exercice 8 : Traitement des erreurs avec Result
+
+Dans cet exercice, vous allez pratiquer le traitement des erreurs en utilisant le type Result en Rust. Le type Result est utilisé pour représenter une opération qui peut réussir et renvoyer une valeur ou échouer et renvoyer une erreur.
+Vous devez écrire une fonction appelée "division" qui prend en paramètre deux nombres entiers et renvoie le résultat de leur division. Cependant, si le deuxième nombre est zéro, la fonction doit renvoyer une erreur de division par zéro.
+
+exemple :
+
+    ./workshop_rust 8 2
+    4
+
+    ./workshop_rust 8 0
+    Erreur : Division by zéro
+
+# Exercice 9 : Manipulation des vecteurs
+
+Dans cet exercice, vous allez pratiquer la manipulation des vecteurs en Rust. Les vecteurs sont des structures de données dynamiques qui permettent de stocker et de gérer plusieurs éléments de même type.
+Vous devez écrire une fonction appelée find_max qui prend en paramètre un vecteur de nombres entiers et renvoie le plus grand nombre présent dans ce vecteur.
+
+exemple :
+
+    ./workshop_rust 10 5 8 3 12 6
+    12
+
+# Exercice 10 : Programmation orientée objet
+
+Dans cet exercice, vous allez pratiquer les concepts de la programmation orientée objet. Vous allez créer une structure de données appelée Rectangle pour représenter un rectangle et définir des méthodes associées pour manipuler cette structure. Le rectangle est défini par sa longueur et sa largeur. Vous devez implémenter des méthodes pour calculer l'aire et le périmètre du rectangle.
+
+# Félicitations à vous d'avoir terminé les 10 exercices ! Vous avez accompli un excellent travail en parcourant ces exercices qui couvraient différents aspects de la programmation en Rust, allant de l'installation de Cargo à la manipulation des chaînes de caractères, des vecteurs et des erreurs. Vous avez développé vos compétences en résolution de problèmes, en manipulation de données et en utilisation des fonctionnalités clés du langage Rust.
