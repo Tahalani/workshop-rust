@@ -119,6 +119,8 @@ exemple :
 
 # Exercice 7 : Le type Option
 
+Doc : https://doc.rust-lang.org/std/option/enum.Option.html
+
 Dans cet exercice, vous allez pratiquer la manipulation de l'Option en Rust. L'Option est un type spécial en Rust qui permet de représenter la présence ou l'absence d'une valeur.
 Vous devez écrire une fonction "find_lenght" qui prend en paramètre une chaîne de caractères (String) et retourne la longueur de cette chaîne de caractères. Si la chaîne de caractères est vide, la fonction doit retourner None. Sinon, elle doit retourner Some(n), où n est la longueur de la chaîne de caractères.
 
@@ -131,6 +133,8 @@ exemple :
     String is empty !
 
 # Exercice 8 : Traitement des erreurs avec Result
+
+Doc : https://doc.rust-lang.org/std/result/
 
 Dans cet exercice, vous allez pratiquer le traitement des erreurs en utilisant le type Result en Rust. Le type Result est utilisé pour représenter une opération qui peut réussir et renvoyer une valeur ou échouer et renvoyer une erreur.
 Vous devez écrire une fonction appelée "division" qui prend en paramètre deux nombres entiers et renvoie le résultat de leur division. Cependant, si le deuxième nombre est zéro, la fonction doit renvoyer une erreur de division par zéro.
