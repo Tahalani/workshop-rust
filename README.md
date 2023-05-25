@@ -47,7 +47,7 @@ exemple :
 
 Compétence: création de fonction simple
 
-Pour cette exercice commencez par créer un fichier ex02.rs dans le dossier src.
+Pour cette exercice commencez par créer un fichier *ex02.rs dans le dossier src.
 L'objectif de cet exercice est de créer une fonction qui prend en paramètre 2 int et qui retourne le résultat obtenu après les avoir additionner.
 Ensuite, appeler la fonction dans le main en lui donnant deux floats donnés en paramètre puis afficher le résultat.
 
